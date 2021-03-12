@@ -3,4 +3,4 @@ Here is my small project where i made a reverse shell script for server and clie
 
 Download a scripts and change ip address in client and server script. You can change and port but ip and port must to be same in client and server.This code is bulit on python 3.8.5.
 
-DO NOT USE FOR ANY ILLEGAL THING.
+DO NOT USE FOR ANY ILLEGAL THING !
